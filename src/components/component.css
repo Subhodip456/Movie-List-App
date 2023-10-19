@@ -1,0 +1,44 @@
+.navbar-bar {
+    background-color: #4e4b4b; 
+    color: #fff; 
+    padding: 10px 40px;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1; 
+  }
+  
+  .navbar-bar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+
+  }
+  
+  .navbar-bar-button {
+    background: #727272 ;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 5px;
+    border-radius: 10%;
+    padding: 7px;
+  }
+  
+  .navbar-bar-button.active-button{
+    background:red;
+  }
+  
+  .movie{
+    background-color: rgb(24, 24, 24);
+    padding: 2%;
+  }
+
+ .scroller{
+    /* padding: 1% 0;
+    overflow: auto;
+    flex: auto; */
+    padding-top: 70px; /* Adjust this value to your preference */
+    overflow: auto;
+  }
